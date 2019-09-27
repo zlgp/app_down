@@ -1,0 +1,310 @@
+.APP{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* 头部 */
+.bg{
+ width: 100%;
+ height: 721px;
+background: url("../img/bg_download_01.png") no-repeat center;
+overflow: hidden;
+}
+.top{
+    width: 100%;
+    height: 72px; 
+}
+.nav{
+   height: 72px;
+   
+
+}
+.nav .logo{
+    float: left;
+    line-height: 72px;
+}
+.nav ul{
+    float:right;
+}
+.nav ul li{
+    float: left;
+    line-height: 72px;
+    margin-right: 36px;
+    
+}
+
+.nav ul li:last-child{
+    margin-right: 3px;
+    width: 90px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1159e1;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 16px;
+   
+}
+.nav ul li a{
+    font-size: 16px;
+    color:#fff ;
+    cursor: pointer;
+}
+
+.nav ul li a.hover{
+    color:#096fff!important;
+    opacity: 1 !important; 
+}
+
+.bg .pane{
+    width: 54px;
+    height: 8px;
+    background-color: #fff;
+    margin-top: 230px;
+}
+.bg h1{
+    font-size: 34px;
+    font-weight: normal;
+    color:#fff;
+    margin-top: 35px;
+}
+.bg h2{
+    font-size: 18px;
+    font-weight: normal;
+    color:#fff;
+    margin-top: 34px;
+}
+.bg .iosdown{
+    width: 228px;
+    height: 54px;
+    margin-top: 50px;
+    background-color: #09a2fa;
+    border-radius: 10px;
+    padding-left: 38px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+.bg .AZdown{
+    width: 228px;
+    height: 54px;
+    margin-top:20px ;
+    background-color: #1ddeb6;
+    border-radius: 10px;
+    padding-left: 38px;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+.bg .code{
+    width: 130px;
+    height: 130px;
+    background-color: pink;
+    margin: -130px 0px 0px 258px;
+    border:1px solid gray; 
+}
+.bg .code img{
+    width: 130px;
+    height: 130px;
+}
+.bg .iosdown,.AZdown .icon{
+    line-height: 54px;
+    
+}
+.bg .iosdown a{
+    color:#fff ;
+    font-size: 16px;
+ 
+}
+.bg .AZdown a{
+    color:#fff ;
+    font-size: 16px;
+}
+.bg .phone{
+    position: absolute;
+    top:168px;
+    right: 320px;
+}
+/* 中部 */
+.bg_second{
+    width: 100%;
+    height: 960px;
+   background: url("../img/bg_download_02.png") no-repeat ;
+   position: relative;
+   top:165px;
+   overflow: hidden;
+}
+.middle{ 
+    height:685px;
+  margin: 0 auto;
+  margin-top: 200px;
+
+}
+.anthor_phone{
+    width: 719px;
+    height: 951px;
+    float: left; 
+}
+.meg{
+  width: 452px;
+  height: 316px;
+  margin-top: 205px;
+  float: right;
+}
+.meg .meg_pane{
+    width: 54px;
+    height: 8px;
+    background-color: #00dea6;
+    margin-left: 398px;
+    margin-bottom: 41px;
+}
+.meg h1{
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0px 0px 38px 282px; 
+}
+.meg h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 53px 230px;
+    color:#787d84;
+}
+.meg .meg_iosdown{
+    width: 228px;
+    height: 54px;
+    /* margin: 50px 0px 0px 320px; */
+    background-color: #09a2fa;
+    border-radius: 10px;
+    padding-left: 38px;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 224px;
+    cursor: pointer;
+}
+.meg .meg_AZdown{
+    width: 228px;
+    height: 54px;
+    /* margin: 20px 0px 0px 320px; */
+    background-color: #1ddeb6;
+    border-radius: 10px;
+    padding-left: 38px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 224px;
+    cursor: pointer;
+
+}
+.meg .meg_iosdown,.meg_AZdown .meg_icon{
+    line-height: 54px;
+    
+}
+.meg .meg_iosdown a{
+    color:#fff;
+    font-size: 16px;
+}
+.meg .meg_AZdown a{
+    color:#fff;
+    font-size: 16px;
+}
+.meg .code{
+    width: 124px;
+    height: 124px;
+    background-color: pink;
+    margin-top: -124px;
+    margin-left: 75px;
+    border:1px solid #f4f4f4;
+}
+.meg .code img{
+    width: 124px;
+    height: 124px;
+}
+.bg_third{
+    position: absolute;
+    top:1360px;
+    right: 247px;
+}
+/* 尾部 */
+.foot{
+    width: 100%;
+    height: 385px;
+    background-color: #161720;
+   position: absolute;
+   top:1935px;
+  
+}
+.foot_width{
+    height: 100%;
+}
+.foot .developer{
+    width: 255px;
+    height: 123px;
+    margin: 70px 0px 0px 0px;
+    float: left;
+}
+.foot .developer .developer_logo{
+  margin-bottom: 24px;
+}
+.foot .developer p{
+    font-size: 14px;
+    color:#5D5E66;
+}
+.foot .product,.aboutUs,.contant{
+  width: 206px;
+  height: 120px;
+  float: left;
+  margin: 72px 39px 0px 0px;
+  border-left: solid 1px #20222e;
+  box-sizing: border-box;
+  padding-left: 20px;
+  /* background-color: pink; */
+}
+.foot .product{
+    margin-left: 257px;
+}
+.foot .product li{
+    margin-bottom: 11px;
+}
+.foot .product li a{
+    font-size: 14px;
+    color:#5D5E66;
+    cursor: pointer;
+}
+.foot .product li:first-child a{
+    font-size: 18px;
+    color:#FFF;
+}
+.foot .aboutUs li{
+    margin-bottom: 11px;
+ }
+ .foot .aboutUs li a{
+    font-size: 14px;
+    color:#5D5E66;
+    cursor: pointer;
+ }
+ .foot .aboutUs li:first-child a{
+     font-size: 18px;
+     color:#FFF;
+ }
+.foot .contant li{
+    margin-bottom: 11px;
+ }
+ .foot .contant li a{
+    font-size: 14px;
+    color:#5D5E66;
+    cursor: pointer;
+ }
+ .foot .contant li:first-child a{
+     font-size: 18px;
+     color:#FFF;
+ }
+ .foot .forReference{
+     width: 100%;
+     height: 48px;
+     position: absolute;
+     bottom: 0px;
+     /* background-color: pink; */
+     border-top: 1px solid #20222e;
+ } 
+ .foot .forReference p{
+    color:#424246;
+    font-size: 14px;
+    line-height: 48px;
+     margin-left: 398px;
+ }
+

@@ -1,0 +1,59 @@
+body,
+div,
+p,
+ul,
+li,
+a,
+span,
+input,
+img,
+i,
+em,
+h1,
+h2,
+h3,
+h4,
+strong,
+del,
+ins,
+header,
+nav,
+footer {
+    margin: 0;
+    padding: 0;
+}
+input {
+    border: none;
+    outline: none;
+}
+li {
+    list-style: none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}
+i {
+    font-style: normal;
+}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.typeArea{
+    width: 1280px;
+    margin: 0 auto;
+}
